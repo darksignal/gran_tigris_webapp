@@ -16,7 +16,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // Monitoring and analytics (track pageview)
     return Scaffold(
       body: Center(
-        child: Text('Home Page'),
+        child: Text(widget.title),
       ),
     );
   }
